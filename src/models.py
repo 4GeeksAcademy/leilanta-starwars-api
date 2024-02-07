@@ -160,5 +160,5 @@ class Fav_Characters(db.Model):
         return {
             "id": self.id,
             "character": self.character,
-            "user": self.user,
+            "user": self.user
         }
